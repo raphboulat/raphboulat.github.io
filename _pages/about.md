@@ -2,7 +2,6 @@
 permalink: /
 title: "About"
 author_profile: true
-author: raphael-boulat
 redirect_from: 
   - /about/
   - /about.html
