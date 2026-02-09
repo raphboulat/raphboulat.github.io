@@ -1,9 +1,11 @@
 ---
-title: "Econometrics - Lecture Notes"
-permalink: /teaching/econometrics-notes
+title: "Econometrics — Lecture Notes"
+permalink: /teaching/econometrics-notes/
+layout: single
+author_profile: false
+share: false
+comments: false
 ---
-
 Personal lecture notes on econometrics topics.
 
-[Download PDF](/files/econometrics_notes.pdf)
-
+[Download the PDF](/files/econometrics_notes.pdf)
