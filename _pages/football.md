@@ -5,7 +5,12 @@ layout: single
 author_profile: true
 ---
 
-![LSE vs. Imperial College - Varisty 2024 (5-1)](https://raw.githubusercontent.com/raphboulat/raphboulat.github.io/master/images/lse_varsity.jpg)
+<div style="text-align:center;">
+  <img src="/images/lse_varsity.jpg"
+       alt="LSE vs. Imperial College – Varsity 2024 (5–1)"
+       style="max-width:100%; border-radius:8px;">
+</div>
+
 
 
 
