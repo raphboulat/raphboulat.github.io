@@ -10,3 +10,4 @@ location: ""
 Personal lecture notes on econometrics topics.
 
 [Download PDF](/files/econometrics_notes.pdf)
+
