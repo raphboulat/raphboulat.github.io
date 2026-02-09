@@ -1,3 +1,4 @@
+---
 title: "Econometrics - Lecture Notes"
 collection: teaching
 type: "Lecture Notes"
