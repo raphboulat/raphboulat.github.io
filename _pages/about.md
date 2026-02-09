@@ -11,4 +11,4 @@ Ciao! I am a first-year PhD student in Economics at Bocconi University. I am an 
 
 Before my PhD, I worked as a pre-doctoral fellow Stanford University working with Professor Lukas Althoff. I hold a MSc in Econometrics and Mathematical Economics from LSE, an MSc in Economics and a BA in International Relations from UNIGE. 
 
-You can find my full CV here. 
+You can find my full CV [here](files/cv_boulat.pdf). 
