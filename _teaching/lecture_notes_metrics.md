@@ -1,6 +1,5 @@
 ---
 title: "Econometrics - Lecture Notes"
-collection: teaching
 type: "Lecture Notes"
 permalink: /teaching/econometrics-notes
 venue: ""
