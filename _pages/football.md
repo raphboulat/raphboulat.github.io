@@ -19,7 +19,7 @@ Football has been my passion since I was 4 years old. It has been such a big par
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%; border-radius:8px; margin-top:1.5rem;">
   <iframe
-    src="https://youtu.be/mgahirWMVaU"
+    src="youtube.com/watch?v=mgahirWMVaU&feature=youtu.be"
     style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
