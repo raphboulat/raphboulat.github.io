@@ -23,7 +23,7 @@ repository               : "raphboulat/raphboulat.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/bocconi_picture.png"
+  avatar           : "https://raphboulat.github.io/images/bocconi_picture.png"
   name             : "Raphaël Boulat"
   pronouns         : # example: "she/her"  
   bio              : "1st Year PhD Student in Economics"
