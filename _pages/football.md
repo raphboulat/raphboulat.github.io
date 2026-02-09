@@ -5,7 +5,8 @@ layout: single
 author_profile: true
 ---
 
-Football has been my passion since I was 4 years old. It has been such a big part of my life that I decided to share some pictures (a short video is in the making) of some important games I played. They cover different periods of my life - as a player of different football clubs (FC Annecy, Meyrin FC, UGS FC) and university clubs (LSE, Stanford).  
+Football has been my passion since I was 4 years old. It has been such a big part of my life that I decided to share some pictures (a short video is in the making) of some important games I played. They cover different periods of my life - as a player of different football clubs (FC Annecy, Meyrin FC, UGS FC) and university clubs (LSE, Stanford). My (former) Transfermarkt page can be found [here](https://www.transfermarkt.fr/raphael-boulat/profil/spieler/691438).
+
 
 <div style="text-align:center;">
   <img src="/images/lse_varsity.jpg"
