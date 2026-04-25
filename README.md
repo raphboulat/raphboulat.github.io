@@ -28,7 +28,9 @@ All editable sections are wrapped in clearly labelled `<!-- EDIT: ... -->` comme
 
 ### `research.html` — Research
 
-- **Papers**: Each paper is a `<div class="paper">` block wrapped in an `<!-- EDIT: PAPER N -->` comment. Update the title, coauthor line, abstract, and button links. A commented-out `<a>` template is included beside each paper for adding a paper link later.
+- **Papers**: Each paper is an `<article class="paper">` block wrapped in an `<!-- EDIT: PAPER N -->` comment. Update the title, coauthor line, abstract, and button links.
+- **Abstracts**: Each paper has a `<div class="paper-abstract" hidden>` panel that is hidden by default. Replace the `[PLACEHOLDER]` text inside the `<p>` to populate it. Clicking the "abstract" button on the page toggles it open/closed.
+- **Adding a paper link**: A commented-out `<a>` template is included inside `.paper-buttons` for adding slides or paper links when files are ready.
 
 ### `resources.html` — Resources
 

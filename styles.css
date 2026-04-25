@@ -259,10 +259,38 @@ a:hover {
   margin-bottom: 12px;
 }
 
+.paper-buttons {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+button.btn {
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  line-height: 1.4;
+}
+
+.btn-toggle[aria-expanded="true"] {
+  background: var(--accent);
+  color: #ffffff;
+}
+
 .paper-abstract {
-  font-size: 15px;
+  border-left: 3px solid var(--accent);
+  padding-left: 16px;
+  margin-top: 12px;
   color: var(--text);
-  margin-bottom: 14px;
+}
+
+.paper-abstract[hidden] {
+  display: none;
+}
+
+.paper-abstract p {
+  font-size: 15px;
   line-height: 1.65;
 }
 
