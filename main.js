@@ -20,4 +20,15 @@
 
   const activeLink = document.querySelector(`.nav-link[data-page="${page}"]`);
   if (activeLink) activeLink.classList.add('active');
+
+  // Wire toggle — must run after nav partial is injected
+  const toggleBtn = document.getElementById('theme-toggle');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', function () {
+      var current = document.documentElement.getAttribute('data-theme');
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  }
 })();

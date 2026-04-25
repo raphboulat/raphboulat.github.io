@@ -7,6 +7,14 @@
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+[data-theme="dark"] {
+  --bg: #2B3F63;
+  --text: #ffffff;
+  --text-secondary: #c5cee0;
+  --accent: #8FB4E8;
+  --border: rgba(255, 255, 255, 0.18);
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +27,7 @@ body {
   line-height: 1.6;
   color: var(--text);
   background: var(--bg);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 a {
@@ -40,6 +49,14 @@ a:hover {
 
 /* ─── Sidebar ─────────────────────────────────────────────── */
 
+.sidebar,
+.page-nav,
+.paper,
+.resource-block,
+.paper-abstract {
+  transition: border-color 0.2s ease;
+}
+
 .sidebar {
   padding: 48px 32px;
   border-right: 1px solid var(--border);
@@ -57,6 +74,10 @@ a:hover {
   border-radius: 4px;
   display: block;
   margin-bottom: 20px;
+}
+
+[data-theme="dark"] .profile-photo {
+  outline: 1px solid var(--border);
 }
 
 .sidebar-name {
@@ -112,19 +133,50 @@ a:hover {
   color: var(--accent);
   background: transparent;
   text-decoration: none;
-  transition: background 150ms, color 150ms;
+  transition: background 150ms, color 150ms, border-color 150ms;
   flex-shrink: 0;
 }
 
 .icon-btn:hover {
   background: var(--accent);
-  color: #ffffff;
+  color: var(--bg);
   text-decoration: none;
 }
 
 .icon-btn svg {
   display: block;
 }
+
+/* ─── Theme toggle ────────────────────────────────────────── */
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 150ms;
+}
+
+.theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* show moon in light, sun in dark */
+html:not([data-theme="dark"]) .icon-sun { display: none; }
+[data-theme="dark"] .icon-moon { display: none; }
 
 /* ─── Main column ─────────────────────────────────────────── */
 
@@ -212,13 +264,13 @@ a:hover {
   border: 1px solid var(--accent);
   border-radius: 4px;
   text-decoration: none;
-  transition: background 150ms, color 150ms;
+  transition: background 150ms, color 150ms, border-color 150ms;
   cursor: pointer;
 }
 
 .btn:hover {
   background: var(--accent);
-  color: #ffffff;
+  color: var(--bg);
   text-decoration: none;
 }
 
@@ -300,7 +352,7 @@ button.btn {
 
 .btn-toggle[aria-expanded="true"] {
   background: var(--accent);
-  color: #ffffff;
+  color: var(--bg);
 }
 
 .paper-abstract {

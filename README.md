@@ -42,6 +42,10 @@ All editable sections are wrapped in clearly labelled `<!-- EDIT: ... -->` comme
 - **YouTube video**: Change the video ID (`mgahirWMVaU`) in the iframe `src` inside `<!-- EDIT: YOUTUBE VIDEO -->`.
 - **Photos**: Add `<figure class="photo">` blocks inside `<!-- EDIT: PHOTOS -->`. A template comment shows the format.
 
+### Dark mode
+
+The site auto-detects your OS dark/light preference on first load. A moon/sun toggle button in the top-right of the nav bar lets visitors override it manually — the choice persists across page loads via `localStorage` (key: `theme`). Clearing `localStorage` reverts to OS preference. No content edits are needed; dark mode works automatically across all pages.
+
 ### `partials/sidebar.html`
 
 - Update your name, role, or institution link here.
