@@ -70,35 +70,60 @@ a:hover {
 .sidebar-role {
   font-size: 14px;
   color: var(--text-secondary);
-  margin-bottom: 28px;
+  margin-bottom: 0;
   line-height: 1.4;
 }
 
-.sidebar-links {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  list-style: none;
+.sidebar-affiliation {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-top: 12px;
 }
 
-.sidebar-link {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  color: var(--accent);
+.sidebar-email {
+  display: block;
   font-size: 14px;
+  color: var(--accent);
   text-decoration: none;
-  transition: opacity 150ms;
+  margin-top: 16px;
+  word-break: break-all;
 }
 
-.sidebar-link:hover {
+.sidebar-email:hover {
   text-decoration: underline;
-  opacity: 1;
 }
 
-.sidebar-link svg {
+.icon-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  color: var(--accent);
+  background: transparent;
+  text-decoration: none;
+  transition: background 150ms, color 150ms;
   flex-shrink: 0;
-  color: var(--text);
+}
+
+.icon-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icon-btn svg {
+  display: block;
 }
 
 /* ─── Main column ─────────────────────────────────────────── */
