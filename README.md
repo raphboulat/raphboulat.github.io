@@ -44,7 +44,7 @@ All editable sections are wrapped in clearly labelled `<!-- EDIT: ... -->` comme
 
 ### Dark mode
 
-The site auto-detects your OS dark/light preference on first load. A moon/sun toggle button in the top-right of the nav bar lets visitors override it manually — the choice persists across page loads via `localStorage` (key: `theme`). Clearing `localStorage` reverts to OS preference. No content edits are needed; dark mode works automatically across all pages.
+The site loads in **light mode by default** for all visitors. A moon/sun toggle button in the top-right of the nav bar lets visitors switch to dark mode — the choice persists across page loads via `localStorage` (key: `theme`). Clearing `localStorage` (or visiting in a fresh private window) resets to light mode. No content edits are needed; dark mode works automatically across all pages.
 
 ### `partials/sidebar.html`
 
