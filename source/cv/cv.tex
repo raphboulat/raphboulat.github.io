@@ -1,0 +1,152 @@
+\documentclass[10.5pt]{article}
+
+\usepackage[a4paper,margin=0.7in]{geometry}
+\usepackage{newpxtext,newpxmath}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{setspace}
+
+\setstretch{0.95}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=cvblue
+}
+
+\urlstyle{same}
+
+\definecolor{cvblue}{RGB}{43,63,99}
+
+% Section title (tighter)
+\newcommand{\cvsection}[1]{%
+    \vspace{0.9em}
+    {\normalsize\bfseries\MakeUppercase{#1}}\par
+    \vspace{0.3em}
+}
+
+% Entry (tight spacing)
+\newcommand{\cventry}[3]{%
+    \noindent
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+        {\bfseries\color{cvblue} #1} & #2 \\
+    \end{tabular*}
+    \textit{#3}\par
+    \vspace{0.2em}
+}
+
+% Simple line entry
+\newcommand{\cvline}[1]{#1\vspace{0.2em}}
+
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t]{0.7\textwidth}
+    {\fontsize{20}{22}\selectfont\bfseries\color{cvblue} Rapha\"el Boulat}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}
+    \raggedleft
+    \small Last updated April 24, 2026
+\end{minipage}
+
+\vspace{0.2em}
+\hrule
+\vspace{0.4em}
+
+\small
+Email: \href{mailto:raphael.boulat@phd.unibocconi.it}{raphael.boulat@phd.unibocconi.it}
+
+Web: \href{https://raphboulat.github.io/}{raphboulat.github.io}
+\normalsize
+
+% EDUCATION
+\cvsection{Education}
+
+\cventry{Università Bocconi}{2025--2029}{PhD in Economics}
+\cventry{London School of Economics}{2023--2024}{MSc in Econometrics and Mathematical Economics}
+\cventry{University of Geneva}{2021--2023}{MSc in Economics}
+\cventry{University of Geneva}{2018--2021}{BA in International Relations, Major in Economics}
+
+% RESEARCH EXPERIENCE
+\cvsection{Research Experience}
+\cventry{Stanford Institute for Economic Policy Research (SIEPR)}{2024--2025}
+{Pre-doctoral Research Fellow for Professor Lukas Althoff on inequality and economic history}
+\cventry{University of Geneva}{2023}
+{Research Assistant for Professor J\'er\'emy Lucchetti on conflict economics}
+\cventry{University of Geneva}{2022}
+{Research Assistant for Professor Julien Xavier Daubanes on energy economics}
+
+% RESEARCH INTERESTS
+\cvsection{Research Interests}
+
+Economics of crime, racial disparities and discrimination, inequality
+
+% WORK IN PROGRESS
+\cvsection{Work in Progress}
+
+\cventry{Political Parties and Fatal Police Violence: Evidence from a Regression Discontinuity Design}{}{}
+\cventry{\href{https://arxiv.org/abs/2408.08923}{Conflicts and the New Scramble for African Resources: A Shift-Share Approach}}{}{}
+\cventry{Criminal Representation of Minorities in Movies (with A. Scarabosio)}{}{}
+
+% TEACHING
+\cvsection{Teaching}
+\cventry{University of Geneva}{2021--2023}
+{Introduction to Macroeconomics (1st-year BSc Economics students)}
+\cventry{University of Geneva}{2022--2023}
+{Macroeconomics (2nd- and 3rd-year BSc Economics students)}
+
+% AWARDS, GRANTS, AND FELLOWSHIPS
+\cvsection{Awards, Grants, and Fellowships}
+\cventry{Bocconi 5-year Merit-Based Fellowship}{2025--2030}
+{}
+\cventry{Fondazione Invernizzi Additional Fellowship}{2025--2026}
+{}
+\cventry{SIEPR Predoctoral Research Fellowship}{2024--2025}
+{}
+\cventry{CCIG Prize for the Best Average in the Master in Economics}{2023}
+{}
+\cventry{Swiss-European Mobility Scholarship}{2022--2023}
+{}
+
+% PROFESSIONAL ACTIVITIES
+\cvsection{Professional Activities}
+
+\cventry{Referee Service}{}%
+{Journal of Development Economics, Review of International Economics}
+
+% ADDITIONAL COURSEWORK
+\cvsection{Additional Graduate Coursework \& Summer Schools}
+
+\cventry{EC38042: Peer versus Network Effects (Stockholm University) - \textit{Scheduled}}{2026}
+{\textit{Instructor:} Yves Zenou}
+
+\cventry{ECON 291: Social and Economic Networks (Stanford University)}{2025}
+{\textit{Instructors:} Matthew Jackson \& Arun Chandrasekhar}
+
+\cventry{ECON 229: Topics in Economic History (Stanford University)}{2025}
+{\textit{Instructor:} Lukas Althoff}
+
+% SKILLS
+\cvsection{Skills}
+
+\textbf{Programming:} Python, R, Stata, Matlab, Dynare
+
+\textbf{Technical:} OCR, LLM APIs (OpenAI, Anthropic, Gemini), NLP, \LaTeX, Git
+
+\textbf{Languages:} French (native), English (fluent), German (intermediate), Italian (beginner)
+
+% CO-CURRICULAR
+\cvsection{Football}
+
+\cventry{FC Annecy Academy}{2016--2018}
+{Highest level of practice during high school (France)}
+\cventry{Semi-professional Footballer (Meyrin FC, Switzerland)}{2018--2021}{}
+\cventry{LSE Varsity Team}{2023--2024}{}
+\cventry{Stanford Club Soccer}{2024--2025}{}
+\end{document}

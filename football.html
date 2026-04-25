@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football — Raphaël Boulat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="football">
+  <div class="layout">
+
+    <aside class="sidebar" id="sidebar-container"></aside>
+
+    <main class="main">
+      <div class="main-inner">
+
+        <h1 class="main-name">Raphaël Boulat</h1>
+
+        <div id="nav-container"></div>
+
+        <div class="content">
+
+          <section>
+            <h2 class="section-heading">Football</h2>
+
+            <!-- ============================================================
+                 EDIT: FOOTBALL DESCRIPTION — update the paragraph below.
+                 ============================================================ -->
+            <p class="football-desc">
+              Football has been my passion since I was 4 years old. It has been such a big
+              part of my life that I decided to share some pictures and a video of some games
+              I played. They cover different periods of my life — as a player of different
+              football clubs (FC Annecy, Meyrin FC, UGS FC) and university clubs (LSE,
+              Stanford). My (former) Transfermarkt page can be found
+              <a href="https://www.transfermarkt.fr/raphael-boulat/profil/spieler/691438" target="_blank" rel="noopener">here</a>.
+            </p>
+            <!-- END EDIT: FOOTBALL DESCRIPTION -->
+
+            <!-- ============================================================
+                 EDIT: YOUTUBE VIDEO — to swap the video, change the video ID
+                 (mgahirWMVaU) in the iframe src below.
+                 Full URL pattern: https://www.youtube.com/embed/VIDEO_ID?start=1
+                 Also update the ?start=N parameter if you want a different start time.
+                 ============================================================ -->
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/mgahirWMVaU?start=1"
+                title="Football video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <!-- END EDIT: YOUTUBE VIDEO -->
+
+            <!-- ============================================================
+                 EDIT: PHOTOS — add additional .photo blocks below this one.
+                 Format for each photo:
+                   <figure class="photo">
+                     <img src="assets/football/your-image.jpg" alt="Description">
+                     <figcaption>Your caption here.</figcaption>
+                   </figure>
+                 ============================================================ -->
+            <figure class="photo">
+              <img src="assets/football/lse_varsity.jpg" alt="LSE vs. Imperial College – Varsity 2024">
+              <figcaption>LSE vs. Imperial College – Varsity 2024 (5–1)</figcaption>
+            </figure>
+
+            <!-- TEMPLATE — copy and uncomment to add another photo:
+            <figure class="photo">
+              <img src="assets/football/your-image.jpg" alt="Brief description">
+              <figcaption>Your caption here.</figcaption>
+            </figure>
+            -->
+            <!-- END EDIT: PHOTOS -->
+
+          </section>
+
+        </div>
+      </div>
+    </main>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
