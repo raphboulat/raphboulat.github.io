@@ -59,9 +59,15 @@ The CV PDF is compiled automatically from LaTeX source:
 
 1. Edit `source/cv/cv.tex` in VS Code.
 2. Save — the `.vscode/settings.json` setup compiles it on save and writes the output to `assets/cv.pdf`.
-3. Commit and push `assets/cv.pdf`.
+3. In `index.html`, bump the `?v=` date on the CV link (e.g. `assets/cv.pdf?v=20260817`).
+4. Commit and push `assets/cv.pdf` and `index.html`.
 
 Do **not** manually edit `assets/cv.pdf`; always compile from source.
+
+The date on the CV itself is `\today`, so it updates on every compile — no need to edit it by hand.
+
+**Why the `?v=`:** browsers (and their built-in PDF viewers) cache `cv.pdf` aggressively.
+Without a changed URL you can push a new CV and still see the old one for hours.
 
 ---
 
