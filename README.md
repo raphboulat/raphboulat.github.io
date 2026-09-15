@@ -78,6 +78,7 @@ These files are not auto-generated and must be replaced manually when updated:
 | File | Purpose |
 |------|---------|
 | `assets/econometrics-notes.pdf` | Econometrics notes (Resources page) |
+| `assets/phd_apps.pdf` | PhD application slides (Resources page) |
 | `assets/papers/criminal-representation-slides.pdf` | Slides for paper 1 (Research + News) |
 
 To update: replace the file, then `git add assets/... && git commit -m "Update slides" && git push`.
